@@ -130,7 +130,7 @@ with st.sidebar:
     
     countries = (st.multiselect(options=df['country'].unique(),
                    label='Escolha os Paises que Deseja visualizar os Restaurantes',
-                   default=['Brazil','Philippines','Turkey','Sri Lanka','India']))
+                   default=['Brazil','Philippines','Turkey','Sri Lanka','Canada']))
     
     st.sidebar.markdown('''---''')
     st.sidebar.markdown('# Powered by Lucas Meller')
