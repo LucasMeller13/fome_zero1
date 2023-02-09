@@ -276,7 +276,7 @@ st.markdown('# Visão Culinárias')
 st.markdown('## Melhores Restaurantes dos Principais tipos Culinários')
 
 with st.container():
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4, col5 = st.columns(5, gap='large')
     
     with col1:
         st.metric(label=f'Italiana: {df_best_italian().iloc[0,0]}',
