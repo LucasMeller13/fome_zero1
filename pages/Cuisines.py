@@ -201,7 +201,7 @@ def fig_df_top10_best_cuisines():
             x='cuisines',
             y='aggregate_rating',
             text='aggregate_rating',
-            title='Top 10 Melhores Tipos de Culinárias',
+            title='Top 10 Tipos de Culinárias Melhores Avaliadas',
             color='cuisines',
             labels={'aggregate_rating':'Avaliação Média','cuisines':'Tipos de Culinária'})
     fig1.update_layout(showlegend=False)
@@ -217,7 +217,7 @@ def fig_df_top10_worst_cuisines():
             x='cuisines',
             y='aggregate_rating',
             text='aggregate_rating',
-            title='Top 10 Piores Tipos de Culinárias',
+            title='Top 10 Tipos de Culinárias Piores Avaliadas',
             color='cuisines',
             labels={'aggregate_rating':'Avaliação Média','cuisines':'Tipos de Culinária'})
     fig2.update_layout(showlegend=False)
