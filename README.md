@@ -28,7 +28,7 @@ Você foi contratado como Cientista de Dados pelo novo CEO da empresa, o qual te
 4. Top 10 Tipos de Culinárias pior avaliadas.
 
 > #### Observação
-> Criar filtros por país, ranking e tipos de culinária para que seja possível análises em casos específicos.
+> Criar filtros por país, ranking e tipos de culinária para que seja possível análises de casos específicos.
 
 ## 2. Insights de Dados
 1. Apesar da quantidade considerável de culinárias registradas, a culinária mais bem avaliada é a 'Others', ou seja, há tipos de gastronomias altamente valorizadas pelas pessoas que ainda não estão registradas no banco de dados.
