@@ -118,7 +118,7 @@ def fig_top10_cities():
             labels={'city':'Cidade','restaurant_name':'Quantidade de Restaurantes','country':'Países'},
             title='Top 10 Cidades com mais Restaurantes Registrados no Banco de Dados',
             custom_data=['country'])
-    fig1.update_traces(hovertemplate='País: %{customdata}<br>Cidade: %{x}<br>Quantidade de restaurantes: %{y}<extra></extra>')
+    fig1.update_traces(hovertemplate='<b>País:</b> %{customdata}<br><b>Cidade:</b> %{x}<br><b>Quantidade de restaurantes:</b> %{y}<extra></extra>')
     
     return fig1
 
@@ -137,7 +137,7 @@ def fig_top7_city4():
         labels={'city':'Cidades','restaurant_name':'Quantidade de Restaurantes','country':'Países'},
         custom_data=['country'],
         text='restaurant_name')
-    fig2.update_traces(hovertemplate='País: %{customdata}<br>Cidade: %{x}<br>Quantidade de restaurantes: %{y}<extra></extra>')
+    fig2.update_traces(hovertemplate='<b>País:</b> %{customdata}<br><b>Cidade:</b> %{x}<br><b>Quantidade de restaurantes:</b> %{y}<extra></extra>')
     
     return fig2
 
@@ -156,7 +156,7 @@ def fig_top7_city2():
         title='Top 7 Cidades com Restaurantes com média de avaliação abaixo de 2.5',
         labels={'restaurant_name':'Quantidade de Restaurantes','city':'Cidades','country':'Países'},
         custom_data=['country'])
-    fig3.update_traces(hovertemplate='País: %{customdata}<br>Cidade: %{x}<br>Quantidade de restaurantes: %{y}<extra></extra>')
+    fig3.update_traces(hovertemplate='<b>País:</b> %{customdata}<br><b>Cidade:</b> %{x}<br><b>Quantidade de restaurantes:</b> %{y}<extra></extra>')
     
     return fig3
 
@@ -173,7 +173,7 @@ def fig_city_cuisines_nunique():
             category_orders={'city': df_city_cuisines_nunique.city},
             labels={'cuisines':'Quantidade de Restaurantes','city':'Cidades','country':'Países'},
             custom_data=['country'])
-    fig4.update_traces(hovertemplate='País: %{customdata}<br>Cidade: %{x}<br>Quantidade de restaurantes: %{y}<extra></extra>')
+    fig4.update_traces(hovertemplate='<b>País:</b> %{customdata}<br><b>Cidade:</b> %{x}<br><b>Quantidade de restaurantes:</b> %{y}<extra></extra>')
     
     return fig4
 
