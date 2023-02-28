@@ -205,7 +205,7 @@ def fig_df_top10_best_cuisines():
             color='cuisines',
             labels={'aggregate_rating':'Avaliação Média','cuisines':'Tipos de Culinária'})
     fig1.update_layout(showlegend=False)
-    fig1.update_traces(hovertemplate='Tipo Culinário: %{x}<br>Avaliação Média: %{y}<extra></extra>') 
+    fig1.update_traces(hovertemplate='<b>Tipo Culinário:</b> %{x}<br><b>Avaliação Média:</b> %{y}<extra></extra>') 
     
     return fig1
 
@@ -221,7 +221,7 @@ def fig_df_top10_worst_cuisines():
             color='cuisines',
             labels={'aggregate_rating':'Avaliação Média','cuisines':'Tipos de Culinária'})
     fig2.update_layout(showlegend=False)
-    fig2.update_traces(hovertemplate='Tipo Culinário: %{x}<br>Avaliação Média: %{y}<extra></extra>') 
+    fig2.update_traces(hovertemplate='<b>Tipo Culinário:</b> %{x}<br><b>Avaliação Média:</b> %{y}<extra></extra>') 
     
     return fig2
 
