@@ -151,7 +151,6 @@ with st.sidebar:
     
 st.header('Fome Zero!')
 st.markdown('## O Melhor lugar para encontrar seu mais novo restaurante favorito!')
-st.markdown('### Temos as seguintes marcas dentro da nossa plataforma:')
 
 col3, col4, col5, col6, col7 = st.columns(5)
 
