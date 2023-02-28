@@ -26,3 +26,10 @@ Você foi contratado como Cientista de Dados pelo novo CEO da empresa, o qual te
 2. Top 1-20 Restaurantes mais bem avaliados com as seguintes informações: ID, nome, País, Cidade, tipo de culinária, preço médio para duas pessoas, avaliação e quantidade de votos positivos.
 3. Top 10 Tipos de Culinárias mais bem avaliadas.
 4. Top 10 Tipos de Culinárias pior avaliadas.
+
+> #### Observação
+> Criar filtros por país, ranking e tipos de culinária para que seja possível análises em casos específicos.
+
+## 2. Insights de Dados
+1. Apesar da quantidade considerável de culinárias registradas, a culinária mais bem avaliada é a 'Others', ou seja, há tipos de gastronomias altamente valorizadas pelas pessoas que ainda não estão registradas no banco de dados.
+2. Grande parte dos restaurantes mais bem avaliados não possuem o tipo de culinária da região em que se localizam.
