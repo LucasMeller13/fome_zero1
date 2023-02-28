@@ -115,7 +115,7 @@ def fig_country_name():
                 labels={'country': 'Países', 'restaurant_name': 'Quantidade de Restaurantes'},
                 title='Quantidade de Restaurantes Registrados por País')
     fig1.update_layout(showlegend=False)   
-    fig1.update_traces(hovertemplate='País: %{x}<br>Quantidade de restaurantes: %{y}<extra></extra>') 
+    fig1.update_traces(hovertemplate='<b>País:</b> %{x}<br><b>Quantidade de restaurantes:</b> %{y}<extra></extra>') 
     
     return fig1
 
@@ -130,7 +130,7 @@ def fig_country_city():
                 labels={'country':'País','city':'Quantidade de Cidades'},
                 title='Quantidade de Cidades Registradas por País')
     fig2.update_layout(showlegend=False,xaxis_title='Países')  
-    fig2.update_traces(hovertemplate='País: %{x}<br>Quantidade de cidades: %{y}<extra></extra>') 
+    fig2.update_traces(hovertemplate='<b>País:</b> %{x}<br><b>Quantidade de cidades:</b> %{y}<extra></extra>') 
     
     return fig2
 
@@ -146,7 +146,7 @@ def fig_country_rating():
                 title='Média de Avaliações feitas por País',
                 labels={'country':'País','votes':'Quantidade de Avaliações'})
     fig3.update_layout(showlegend=False,xaxis_title='Países')
-    fig3.update_traces(hovertemplate='País: %{x}<br>Quantidade de avaliações: %{y}<extra></extra>') 
+    fig3.update_traces(hovertemplate='<b>País:</b> %{x}<br><b>Quantidade de avaliações:</b> %{y}<extra></extra>') 
     
     return fig3
 
@@ -162,7 +162,7 @@ def fig_country_currency_usd():
                 title='Preço médio de um prato para duas pessoas por País',
                 labels={'country':'País', 'currency_usd':'Preço médio'})
     fig4.update_layout(showlegend=False,xaxis_title='Países')
-    fig4.update_traces(hovertemplate='País: %{x}<br>Preço médio: %{y} dólares <extra></extra>')   
+    fig4.update_traces(hovertemplate='<b>País:</b> %{x}<br><b>Preço médio:</b> %{y} dólares <extra></extra>')   
     
     return fig4  
 
