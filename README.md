@@ -23,7 +23,7 @@ Você foi contratado como Cientista de Dados pelo novo CEO da empresa, o qual te
 
 ### Página Cuisines
 1. As 5 culinárias mais bem avaliadas e os restaurantes melhor avaliados das respectivas culinárias.
-2. Top 1-20 Restaurantes mais bem avaliados com as seguintes informações: ID, nome, País, Cidade, tipo de culinária, preço médio para duas pessoas, avaliação e quantidade de votos positivos.
+2. Top 1-20 Restaurantes mais bem avaliados com as seguintes informações: ID, nome, país, cidade, tipo de culinária, preço médio para duas pessoas, avaliação e quantidade de votos positivos.
 3. Top 10 Tipos de Culinárias mais bem avaliadas.
 4. Top 10 Tipos de Culinárias pior avaliadas.
 
