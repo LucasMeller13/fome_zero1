@@ -33,3 +33,6 @@ Você foi contratado como Cientista de Dados pelo novo CEO da empresa, o qual te
 ## 2. Insights de Dados
 1. Apesar da quantidade considerável de culinárias registradas, a culinária mais bem avaliada é a 'Others', ou seja, há tipos de gastronomias altamente valorizadas pelas pessoas que ainda não estão registradas no banco de dados.
 2. Grande parte dos restaurantes mais bem avaliados não possuem o tipo de culinária da região em que se localizam.
+
+## Dashboard Final do Projeto
+Dashboard em Cloud com as páginas requisitadas e opção de filtro por país. Acesse por esse link: https://lucasmeller13-fome-zero1-home-05g20k.streamlit.app/
